@@ -3,15 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
 
 h1{
+    width: 250px;
     color: red;
     margin-left: 3rem;
+    border-bottom: 2px solid darkblue;
+    top: 1rem;
+    margin-bottom: 1rem;
 }
 
 img{
-    width: 550px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
+
     
 }
